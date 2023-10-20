@@ -26,6 +26,7 @@ public class SampleTest {
 
 	}
 	@BeforeTest
+	//This method will execute before the test method
 	public void beforeTest() {
 		WebDriverManager.chromedriver().clearDriverCache().setup();
 		ChromeOptions options = new ChromeOptions();
