@@ -36,6 +36,7 @@ public class SampleTest {
 	}
 
 	@AfterTest
+	//This method will execute after the test method
 	public void afterTest() {
 		driver.quit();
 	}
